@@ -1,0 +1,78 @@
+{
+	"name": "chalksite",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start -p 8000",
+		"test": "NODE_ENV=test jest",
+		"test:watch": "NODE_ENV=test jest --watch",
+		"test:coverage": "NODE_ENV=test jest --coverage",
+		"test:cypress": "NODE_ENV=test cypress open",
+		"lint": "eslint .",
+		"lint:watch": "esw . --watch --cache",
+		"lint:watchAll": "esw . --watch",
+		"circleci:run": "circleci local execute --job $JOB"
+	},
+	"babel": {
+		"presets": [
+			"next/babel"
+		],
+		"plugins": [
+			[
+				"styled-components",
+				{
+					"displayName": false,
+					"ssr": true
+				}
+			]
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/randomslap/ChalkSite.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/randomslap/ChalkSite/issues"
+	},
+	"homepage": "https://github.com/randomslap/ChalkSite#readme",
+	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^1.2.30",
+		"@fortawesome/free-brands-svg-icons": "^5.14.0",
+		"@fortawesome/free-regular-svg-icons": "^5.14.0",
+		"@fortawesome/free-solid-svg-icons": "^5.14.0",
+		"@fortawesome/react-fontawesome": "^0.1.11",
+		"@fullpage/react-fullpage": "^0.1.17",
+		"@svgr/webpack": "^5.4.0",
+		"aws-amplify": "^3.0.22",
+		"axios": "^0.20.0",
+		"dotenv": "^8.2.0",
+		"imagemin-optipng": "^7.1.0",
+		"imagemin-svgo": "^7.0.0",
+		"lottie-web": "^5.7.3",
+		"moment": "^2.27.0",
+		"next": "^12.1.6",
+		"next-compose-plugins": "^2.2.0",
+		"next-optimized-images": "^2.6.2",
+		"next-redux-wrapper": "^5.0.0",
+		"react": "^18.2.0",
+		"react-animated-css": "^1.2.1",
+		"react-burger-menu": "^2.7.1",
+		"react-dom": "^18.2.0",
+		"react-facebook-pixel": "^1.0.4",
+		"react-pdf": "^5.1.0",
+		"react-pdf-js-infinite": "^1.2.0",
+		"react-phone-input-2": "^2.13.7",
+		"react-redux": "^7.2.1",
+		"react-scroll-parallax": "^3.2.0",
+		"react-text-transition": "^1.1.1",
+		"redux": "^4.0.5",
+		"reflexbox": "^4.0.6",
+		"styled-components": "^5.1.1",
+		"styled-react-modal": "^2.1.0"
+	}
+}

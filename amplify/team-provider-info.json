@@ -1,0 +1,15 @@
+{
+    "web": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-chalk-web-191635-authRole",
+            "UnauthRoleArn": "arn:aws:iam::272410092469:role/amplify-chalk-web-191635-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::272410092469:role/amplify-chalk-web-191635-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-chalk-web-191635-deployment",
+            "UnauthRoleName": "amplify-chalk-web-191635-unauthRole",
+            "StackName": "amplify-chalk-web-191635",
+            "StackId": "arn:aws:cloudformation:us-east-1:272410092469:stack/amplify-chalk-web-191635/a18c9820-811a-11ea-9c40-0aa9a390fc79",
+            "AmplifyAppId": "d11awqj8vl1n06"
+        }
+    }
+}

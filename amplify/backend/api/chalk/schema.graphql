@@ -1,0 +1,25 @@
+type Name {
+    first: String!
+    last: String!
+    discord: String!
+}
+
+type Platform {
+    xbox: Boolean!
+    playstation: Boolean!
+}
+
+type Game {
+    apex: Boolean!
+    fortnite: Boolean!
+    rainbowsix: Boolean!
+}
+
+type BetaUser @model {
+    name: Name!
+    favoritePlatform: Platform!
+    favoriteGame: Game!
+    email: AWSEmail!
+    phone_number: AWSPhone!
+    createdAt: AWSDateTime!
+}

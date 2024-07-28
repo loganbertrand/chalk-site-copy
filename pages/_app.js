@@ -6,12 +6,10 @@ import GlobalStyle from "../components/GlobalTheme"
 import { createStore } from "redux"
 import { Provider } from "react-redux"
 import withRedux from "next-redux-wrapper"
-import Amplify, { API } from "aws-amplify"
-import awsconfig from "../aws-exports"
+
 import { ModalProvider } from "styled-react-modal"
 import { ParallaxProvider } from "react-scroll-parallax"
 import "react-phone-input-2/lib/style.css"
-API.configure(awsconfig)
 
 const reducer = (
 	state = {

@@ -64,6 +64,7 @@
 		"react-burger-menu": "latest",
 		"react-dom": "latest",
 		"react-facebook-pixel": "latest",
+		"react-is": "^18.3.1",
 		"react-pdf": "latest",
 		"react-pdf-js-infinite": "latest",
 		"react-phone-input-2": "^2.13.7",
